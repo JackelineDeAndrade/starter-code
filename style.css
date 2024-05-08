@@ -148,7 +148,7 @@ table {
 
 .outra-coisa span:hover {
 	color: #44FFA1;
-	
+
 
 }
 
@@ -305,6 +305,7 @@ table {
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 40px;
+	min-width: 56px;
 
 
 }
@@ -424,7 +425,7 @@ table {
 .bg3 {
 	position: absolute;
 	bottom: -60px;
-    right: 50px;
+	right: 50px;
 }
 
 footer {
@@ -433,14 +434,14 @@ footer {
 	flex-direction: column;
 	gap: 56px;
 	padding-bottom: 110px;
-	
-	
-	
+
+
+
 }
 
 footer img {
 	max-width: 96px;
-	
+
 }
 
 footer div {
@@ -448,7 +449,201 @@ footer div {
 	gap: 28px;
 }
 
-footer div object svg path:hover {
-	fill: #24053E;
+.socialIcon:hover path {
+	fill: #24053E !important;
 }
-	
+
+@media (max-width: 1200px) {
+	.celular img {
+		max-width: 514px;
+		margin-left: 0;
+	}
+
+	.container {
+		padding: 0 40px;
+	}
+
+	.data h1 {
+		font-size: 60px;
+		max-width: 500px;
+	}
+
+	.bg1 {
+		left: -225px;
+	}
+
+	.bg2 {
+		right: -90px;
+
+	}
+
+	.bg {
+		clip-path: ellipse(77% 55% at 50% 45%);
+		top: -270px;
+	}
+
+	.lado {
+		padding-top: 250px;
+		flex-direction: column;
+		gap: 48px;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	.todos {
+		flex-direction: row;
+		gap: 32px;
+		justify-content: center;
+		text-align: left;
+
+	}
+
+	.todos span {
+		margin-bottom: 0;
+	}
+
+	.todos h2 {
+		margin-bottom: 16px;
+	}
+
+	.avatar {
+		max-width: 281px;
+		z-index: 90;
+	}
+
+	.parte3 {
+		max-width: 404px;
+		margin-right: 0;
+		padding: 56px;
+		z-index: 100;
+	}
+
+	.be {
+		font-size: 48px;
+		line-height: 56px;
+	}
+
+	.hi {
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.apply {
+		padding: 12px 24px;
+		font-size: 16px;
+	}
+
+	.bg3 {
+		bottom: -110px;
+		right: 20px;
+
+	}
+
+	.selva {
+		padding-bottom: 260px;
+	}
+
+	.selva-dois {
+		padding: 0px 0 90px 0;
+	}
+}
+
+@media (max-width: 376px) {
+	.celular img {
+		max-width: 320px;
+
+	}
+
+	.container {
+		padding: 0 16px;
+	}
+
+	.outra-coisa span {
+		font-weight: 700;
+	}
+
+	.data h1 {
+		font-size: 46px;
+		font-weight: 600;
+		line-height: 50px;
+	}
+
+	.bg1 {
+		display: none;
+	}
+
+	.bg2 {
+		display: none;
+	}
+
+	.bg3 {
+		display: none;
+	}
+
+	.bg {
+		clip-path: ellipse(100% 41% at 47% 40%);
+
+	}
+
+	.todos {
+		flex-direction: column;
+		text-align: center;
+
+
+	}
+
+	.selva {
+		padding-bottom: 0px;
+	}
+
+	.avatar {
+		max-width: 281px;
+		top: 112px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.pai-delas {
+		padding-top: 340px;
+	}
+
+	.bg-white {
+		clip-path: ellipse(90% 35% at 50% 45%);
+	}
+
+	.be {
+		font-size: 32px;
+		line-height: 48px;
+	}
+
+	.lado {
+		padding-top: 110px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.todos p {
+		font-size: 16px;
+		line-height: 28px;
+
+	}
+
+	.todos h2 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.parte3 {
+		text-align: center;
+		padding: 31px;
+
+	}
+
+	footer {
+		padding-bottom: 60px;
+	}
+
+
+
+}
